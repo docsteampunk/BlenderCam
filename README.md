@@ -27,4 +27,4 @@ X is the Current FOV and Y is the Final FOV. We do this by:
 * Use artangent to find the inverse of the tangent.
 * Multiply by the 2PI radians to get it back to degrees.
 
-Overall, it will add a UI at the top of the node "BlenderCam" that is just the regular cam but adds export values that allow you to add the values from Blender. Click the Convert boolean to convert from godot to blender.
+Overall, it will add the node "BlenderCam" that is just the regular cam but adds export values that allow you to add the values from Blender. Click the Convert boolean to convert from godot to blender. Make sure to toggle the values you want to change.
